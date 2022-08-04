@@ -1,0 +1,14 @@
+We will design and develop Ecommerce web Application with React.
+
+Custom Components:
+Slider/Carousel
+Categories
+Products etc.
+
+Tools/Tech Used:
+Functional Reusable React Components
+React Hooks
+Styled Components
+Created responsive react pages 
+Rest APIs using Node.js and Mongodb
+Combine API with the design (Integrate Back-end with the front-end)
