@@ -12,3 +12,7 @@ Styled Components
 Created responsive react pages 
 Rest APIs using Node.js and Mongodb
 Combine API with the design (Integrate Back-end with the front-end)
+
+Start by creating react app basic code using:
+npx clear-npx-cache
+npx create-react-app app-name
