@@ -16,3 +16,9 @@ Combine API with the design (Integrate Back-end with the front-end)
 Start by creating react app basic code using:
 npx clear-npx-cache
 npx create-react-app app-name
+
+LEARNINGS:
+
+JS v/s JSX
+https://www.webtips.dev/javascript-vs-jsx
+https://medium.com/weekly-webtips/react-basics-whats-the-difference-between-javascript-and-jsx-604dd224b1cf
