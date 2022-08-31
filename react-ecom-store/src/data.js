@@ -39,3 +39,38 @@ export const categories = [
     title: 'LIVE JACKETS',
   },
 ];
+
+export const popularProducts = [
+  {
+    id: 1,
+    img: require('./images/products/1.png'),
+  },
+  {
+    id: 2,
+    img: require('./images/products/2.png'),
+  },
+  {
+    id: 3,
+    img: require('./images/products/3.png'),
+  },
+  {
+    id: 4,
+    img: require('./images/products/4.png'),
+  },
+  {
+    id: 5,
+    img: require('./images/products/5.png'),
+  },
+  {
+    id: 6,
+    img: require('./images/products/6.png'),
+  },
+  {
+    id: 7,
+    img: require('./images/products/7.png'),
+  },
+  {
+    id: 8,
+    img: require('./images/products/8.png'),
+  },
+];
