@@ -44,3 +44,13 @@ https://stackoverflow.com/questions/12415661/using-marginauto-to-vertically-alig
 
 Image will not load without using require keyword in src  
 https://stackoverflow.com/questions/34582405/react-wont-load-local-images
+
+What is props.children and when to use it?
+https://stackoverflow.com/questions/49706823/what-is-this-props-children-and-when-you-should-use-it
+
+Functional vs Class Components
+https://www.twilio.com/blog/react-choose-functional-components
+
+Transform Property CSS
+https://www.youtube.com/watch?v=K0Gz7CKNJzY
+https://www.youtube.com/watch?v=Nloq6uzF8RQ
