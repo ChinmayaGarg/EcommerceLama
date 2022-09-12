@@ -85,6 +85,7 @@ const AmountContainer = styled.div`
   align-items: center;
   font-weight: 700;
 `;
+
 const IconContainer = styled.div`
   cursor: pointer;
 `;

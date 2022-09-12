@@ -9,11 +9,13 @@ const Container = styled.div`
   height: 70vh;
   position: relative;
 `;
+
 const Image = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
 `;
+
 const InfoContainer = styled.div`
   position: absolute;
   top: 0px;
@@ -25,10 +27,12 @@ const InfoContainer = styled.div`
   align-items: center;
   justify-content: center;
 `;
+
 const Title = styled.h1`
   color: white;
   margin-bottom: 20px;
 `;
+
 const Button = styled.button`
   border: none;
   padding: 10px;
