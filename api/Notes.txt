@@ -1,0 +1,7 @@
+Initial Steps to start with back-end development from scratch:
+
+Step 1: Created index.js file
+Step 2: Initiate Node.js application by running "npm init -y" in terminal (inside the folder api)
+        This will create a package.json file.
+        Package.json will have application name, version name, name of main file.
+        Here we will install dependencies, libraries and will write scripts.
