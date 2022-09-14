@@ -51,4 +51,4 @@ Step 7: Connect Node.js to MongoDB Server (We will accomplish this using "mongoo
                         Step 7.5.2: Modifying connection string to make the connection
                                 Step 7.5.2.1: Replace "<password>" with "Given DB User password" (DB User password was created at Step 7.2)
                                 Step 7.5.2.2: Add Database name in the connection string to access
-                                
+        Step 7.6: Add "then" method to mongoose.connect as .connect is a promise.
