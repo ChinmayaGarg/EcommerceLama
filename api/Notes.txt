@@ -19,3 +19,11 @@ Step 3: Install Libraries
             It allows us to automatically refresh the application after changes, elseafter every change we have to
             go to the terminal and start the application again and again. 
             In crux, it is hot reloading.  
+
+Step 4: Use/Integrate Nodemon
+    We run the Backend using "node filename". Ex: "node index.js". This will execute the code inside index.js.
+    But we have to run it again and again. Instead we can run it using "nodemon" -> "nodemon index.js"
+    Instead of running "nodemon index.js" whenever we start the application,
+    we will create the script "start":"nodemon index.js".
+    We have used index.js because, we have marked index.js as our main file in package.json (industry standard)
+    Now we can directly run our script using "npm start"
