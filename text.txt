@@ -12,3 +12,45 @@ Styled Components
 Created responsive react pages 
 Rest APIs using Node.js and Mongodb
 Combine API with the design (Integrate Back-end with the front-end)
+
+Start by creating react app basic code using:
+npx clear-npx-cache
+npx create-react-app app-name
+
+LEARNINGS:
+
+JS v/s JSX
+https://www.webtips.dev/javascript-vs-jsx
+https://medium.com/weekly-webtips/react-basics-whats-the-difference-between-javascript-and-jsx-604dd224b1cf
+
+ViewPort Height and Width vs other methods
+
+Positioning in CSS
+https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/
+https://www.w3schools.com/css/css_positioning.asp
+https://stackoverflow.com/questions/26979386/css-parents-position-is-absolute-and-childs-position-is-relative-and-vice-ve
+
+If a component has "position: absolute" then its parent has to be "position: relative"
+https://css-tricks.com/absolute-positioning-inside-relative-positioning/
+
+z-inxdex(3rd dimension) and positioining
+https://www.freecodecamp.org/news/how-to-use-the-position-property-in-css-to-align-elements-d8f49c403a26/
+
+margin: auto (Horizontally center)
+https://www.w3schools.com/css/css_margin.asp
+
+margin: auto (Why not vertically centered? and how to do it?)
+https://stackoverflow.com/questions/12415661/using-marginauto-to-vertically-align-a-div
+
+Image will not load without using require keyword in src  
+https://stackoverflow.com/questions/34582405/react-wont-load-local-images
+
+What is props.children and when to use it?
+https://stackoverflow.com/questions/49706823/what-is-this-props-children-and-when-you-should-use-it
+
+Functional vs Class Components
+https://www.twilio.com/blog/react-choose-functional-components
+
+Transform Property CSS
+https://www.youtube.com/watch?v=K0Gz7CKNJzY
+https://www.youtube.com/watch?v=Nloq6uzF8RQ
