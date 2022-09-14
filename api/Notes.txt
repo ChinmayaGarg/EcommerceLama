@@ -5,3 +5,17 @@ Step 2: Initiate Node.js application by running "npm init -y" in terminal (insid
         This will create a package.json file.
         Package.json will have application name, version name, name of main file.
         Here we will install dependencies, libraries and will write scripts.
+
+Step 3: Install Libraries
+    Step 3.1: Install Express by running "npm i express" in terminal (inside the folder api)
+            Express will be our Node.JS framework, so we can create REST API on our server
+    Step 3.2: Install Express by running "npm i mongoose" in terminal (inside the folder api)
+            In this project we will use MongoDB, mongoose is used to connect MongoDB with Backend(Node.js)
+    Step 3.3: Install Express by running "npm i dotenv" in terminal (inside the folder api)
+            This library will help us to hide our secret keys, crucial values and other important stuff.
+            Eg: We will be using stripe payment method, which will provide us secret key for the identification.
+                If we will not hide our secret key then anybody can create a payment operation and charge our users.
+    Step 3.4: Install Express by running "npm i nodemon" in terminal (inside the folder api)
+            It allows us to automatically refresh the application after changes, elseafter every change we have to
+            go to the terminal and start the application again and again. 
+            In crux, it is hot reloading.  
