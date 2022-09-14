@@ -1,0 +1,10 @@
+Font-Family:
+We can use fonts from fonts.google.com
+
+To use fonts follow the following steps:
+1. Search font using font-name that we want to add
+2. Add the font variations
+3. On RHS a link will be provided, copy the link
+4. Paste the link under public -> index.html
+5. Copy CSS rules to specify families (the name of the font-family)
+6. Paste it under public -> index.html -> style tag (i.e. <style>{CSS rule that we copied from point 5.}</style>)
