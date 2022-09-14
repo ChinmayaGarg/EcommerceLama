@@ -31,3 +31,6 @@ Step 4: Use/Integrate Nodemon
 Step 5: Create express application
 
 Step 6: Listen to Port No. (This step will complete/finish the setup of Creation of Express Application)
+
+Step 7: Connect Node.js to MongoDB Server (We will accomplish this using "mongoose" library)
+        Step 7.1: import "mongoose" library
