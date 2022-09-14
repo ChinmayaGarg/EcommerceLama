@@ -29,3 +29,5 @@ Step 4: Use/Integrate Nodemon
     Now we can directly run our script using "npm start"
 
 Step 5: Create express application
+
+Step 6: Listen to Port No. (This step will complete/finish the setup of Creation of Express Application)
