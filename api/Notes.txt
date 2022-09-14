@@ -34,3 +34,15 @@ Step 6: Listen to Port No. (This step will complete/finish the setup of Creation
 
 Step 7: Connect Node.js to MongoDB Server (We will accomplish this using "mongoose" library)
         Step 7.1: import "mongoose" library
+        Step 7.2: Create/Setup Database, DB User on mongodb.com
+        Step 7.3: Setup IP Address under "Network Access" on mongodb.com. There are 2 ways to setup:
+                        1. Add the current IP, which means only that IP/server can read the DB.
+                        2. Add 0.0.0.0, which means every server/IP can reach our DB
+                        Since we will use localhost we shall use 0.0.0.0.
+                        If we will deploy, than we should add our server ID
+        Step 7.4: Finding connection string in mongodb.com.
+                  This connection string will be used inside our code to establish the connection 
+                  between mongoDB and Backend.
+                        Step 7.4.1: Click "Connect" under "Databases".
+                        Step 7.4.2: Then choose option: "Connect your application"
+                        Step 7.4.3: Copy the "connection string"
