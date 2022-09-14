@@ -48,3 +48,5 @@ Step 7: Connect Node.js to MongoDB Server (We will accomplish this using "mongoo
                         Step 7.4.3: Copy the "connection string"
         Step 7.5: Connect Node.js (Express) with DB (MongoDB) 
                         Step 7.5.1: Paste connection string inside "mongoose.connect("connestion string")"
+                        Step 7.5.2: Modifying connection string to make the connection
+                                Step 7.5.2.1: Replace "<password>" with "Given DB User password" (DB User password was created at Step 7.2)
