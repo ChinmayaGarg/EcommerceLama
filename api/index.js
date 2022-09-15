@@ -19,6 +19,8 @@ app.get('/api/test', () => {
   console.log('Test is successful');
 });
 
+app.use(express.json()); // Middleware integrated: This will allow accepting JSON object from client request
+
 app.use('/api/users', userRoute);
 
 app.listen(process.env.PORT || 5000, () => {
