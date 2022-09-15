@@ -14,6 +14,10 @@ mongoose
     console.log(err);
   });
 
+app.get('/api/test', () => {
+  console.log('Test is successful');
+});
+
 app.listen(process.env.PORT || 5000, () => {
   console.log('Backend server is running. This callback function will run after starting the server');
 });

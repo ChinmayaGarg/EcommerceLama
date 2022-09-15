@@ -57,3 +57,11 @@ Step 8: Hiding Connection String using .env
         everybody can access and modify our DB. .env will be used to prevent this. 
 
 Step 9: Hiding Port No. using .env
+
+Example Substep: Created an example of REST API using endpoints.
+        Note:- It is not a good idea to use all the endpoints inside index.js because that will make index.js
+               long and messy as there will be lot of different endpoints.
+               Therefore we will make a folder routes and we will create our APIs for the respective
+               object/collection (Eg: user, products etc.) inside the routes folder using Express's "Router"
+               function.
+               Then we will reference that APIs endpoints in index.js file using "use" function.
