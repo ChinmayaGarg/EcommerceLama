@@ -73,3 +73,7 @@ Step 10: API Creation inside. We are going to create REST APIs using endpoints.
 Step 11: Using API from Step 10 inside index.js with the help of "use" function.
         Step 11.1: Import the API inside index.js
         Step 11.2: Use the imported API inside "index.js" using "use" function
+
+Step 12: Make MongoDB Collections (models)
+        Step 12.1: Create new folder "models" 
+        Step 12.2: Create empty files of which collections are needed/models are to be defined
