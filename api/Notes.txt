@@ -69,3 +69,7 @@ Example Substep: Created an example of REST API using endpoints.
 Step 10: API Creation inside. We are going to create REST APIs using endpoints.
         Step 10.1: Create "routes" folder.
         Step 10.2: Create API using "Router()" function and export it.
+
+Step 11: Using API from Step 10 inside index.js with the help of "use" function.
+        Step 11.1: Import the API inside index.js
+        Step 11.2: Use the imported API inside "index.js" using "use" function
