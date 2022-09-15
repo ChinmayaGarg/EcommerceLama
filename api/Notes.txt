@@ -65,3 +65,7 @@ Example Substep: Created an example of REST API using endpoints.
                object/collection (Eg: user, products etc.) inside the routes folder using Express's "Router"
                function.
                Then we will reference that APIs endpoints in index.js file using "use" function.
+
+Step 10: API Creation inside. We are going to create REST APIs using endpoints.
+        Step 10.1: Create "routes" folder.
+        Step 10.2: Create API using "Router()" function and export it.
