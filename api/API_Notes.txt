@@ -1,0 +1,7 @@
+Firstly, we will create our first user.
+We can login or register user which can be done in 2 ways:
+1. Inside our user API [Not Recommended] [Not best practice because login process is a different word and 
+   to create more secure applications we should create a separate route like "auth.js"]
+2. Creating separate API (auth.js) [Recommended]
+
+Auth.js: Route for login and register.
