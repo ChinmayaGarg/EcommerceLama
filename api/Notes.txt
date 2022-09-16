@@ -77,3 +77,17 @@ Step 11: Using API from Step 10 inside index.js with the help of "use" function.
 Step 12: Make MongoDB Collections (models)
         Step 12.1: Create new folder "models" 
         Step 12.2: Create empty files of which collections are needed/models are to be defined
+        Step 12.3: Define models
+                Step 12.3.1: import mongoose
+                Step 12.3.2: Create mongoose.Schema()
+                Step 12.3.3: export mongoose.model()
+
+                https://mongoosejs.com/docs/models.html
+                Note:- Models are fancy constructors compiled from Schema definitions. An instance of a model
+                       is called a document. Models are responsible for creating and reading documents from
+                       the underlying MongoDB database.
+                       When we call mongoose.model() on a schema, Mongoose compiles a model for you.
+                       The first argument is the singular name of the collection your model is for. 
+                       Mongoose automatically looks for the plural, lowercased version of your model name. 
+                       Example:  mongoose.model('User', UserSchema);
+                       Thus, for the example, the model "User" is for the "users" collection in the database.
