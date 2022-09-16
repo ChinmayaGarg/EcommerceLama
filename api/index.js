@@ -3,6 +3,7 @@ const app = express();
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const userRoute = require('./routes/user');
+const authRoute = require('./routes/auth');
 
 dotenv.config();
 
@@ -22,6 +23,7 @@ app.get('/api/test', () => {
 app.use(express.json()); // Middleware integrated: This will allow accepting JSON object from client request
 
 app.use('/api/users', userRoute);
+app.use('/api/auth', authRoute);
 
 app.listen(process.env.PORT || 5000, () => {
   console.log('Backend server is running. This callback function will run after starting the server');
