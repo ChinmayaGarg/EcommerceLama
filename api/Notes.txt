@@ -91,3 +91,6 @@ Step 12: Make MongoDB Collections (models)
                        Mongoose automatically looks for the plural, lowercased version of your model name. 
                        Example:  mongoose.model('User', UserSchema);
                        Thus, for the example, the model "User" is for the "users" collection in the database.
+
+Step 13: API Creation inside routes folder. We are going to create REST APIs using endpoints.
+        Step 13.1: Create empty files inside "routes" folder of which APIs are needed.
