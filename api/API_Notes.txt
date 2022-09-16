@@ -5,3 +5,7 @@ We can login or register user which can be done in 2 ways:
 2. Creating separate API (auth.js) [Recommended]
 
 Auth.js: Route for login and register.
+
+We cannot directly save our password inside the DB. Hence, we will encrypt the password and then save.
+There are several ways to encrypt the password that we can google.
+For this application we will CryptoJS. (Documentation: https://cryptojs.gitbook.io/docs/) (npm website: https://www.npmjs.com/package/crypto-js)
