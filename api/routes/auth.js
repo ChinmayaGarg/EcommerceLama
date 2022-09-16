@@ -45,10 +45,20 @@ router.post('/login', async (req, res) => {
 
     // Check: Password match or not
     const hashedPassword = CryptoJS.AES.decrypt(user.password, process.env.PASS_SEC);
-    const password = hashedPassword.toString(CryptoJS.enc.Utf8);
-    if (password !== req.body.password) throw 'Wrong Credentials!';
+    const originalPassword = hashedPassword.toString(CryptoJS.enc.Utf8);
+    if (originalPassword !== req.body.password) throw 'Wrong Credentials!';
 
-    res.status(200).json(user);
+    /* We have used ._doc because user retrieved is collection of many other objects, 
+    the useful info we need is contained inside _doc.
+
+    To understand what the user object, remove .doc
+        const { password, ...others } = user;
+    The above piece of code will help us understand the user structure.
+    */
+    const { password, ...others } = user._doc;
+    console.log(user);
+
+    res.status(200).json(others);
   } catch (err) {
     res.status(401).json(err);
   }
