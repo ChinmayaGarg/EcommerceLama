@@ -32,4 +32,26 @@ router.post('/register', async (req, res) => {
   }
 });
 
+// LOGIN
+
+router.post('/login', async (req, res) => {
+  try {
+    if (!req.body.username) throw 'Username not entered';
+    if (!req.body.password) throw 'Password not entered';
+
+    // Check: User present or not
+    const user = await User.findOne({ username: req.body.username });
+    if (!user) throw 'Wrong Credentials!';
+
+    // Check: Password match or not
+    const hashedPassword = CryptoJS.AES.decrypt(user.password, process.env.PASS_SEC);
+    const password = hashedPassword.toString(CryptoJS.enc.Utf8);
+    if (password !== req.body.password) throw 'Wrong Credentials!';
+
+    res.status(200).json(user);
+  } catch (err) {
+    res.status(401).json(err);
+  }
+});
+
 module.exports = router;
